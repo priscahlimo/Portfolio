@@ -14,19 +14,20 @@
           <a class="navbar-brand" href="#">
             <img class="rounded-circle"src="./images/profilephoto.jpeg" width="200px" height="200px" alt="" width="30" height="24">
           </a>
-          <a class="navbar-brand" href="About.html">About Me</a>
-          <a class="navbar-brand" href="Skills.html"> Skills</a>
-          <a class="navbar-brand" href="Projects.html">Projects</a>
-          <a class="navbar-brand" href="Contact.html">Contacts</a>
+          <a class="navbar-brand text-white" href="About.html">About Me</a>
+          <a class="navbar-brand text-white" href="Skills.html"> Skills</a>
+          <a class="navbar-brand text-white" href="Projects.html">Projects</a>
+          <a class="navbar-brand text-white" href="Contact.html">Contact</a>
         </div>
     </nav>
     <div class="container">
         <div class="row mt-5 w-50">
           <h1 class="text-success">CONTACT ME</h1>
-            <div class="col">
-              <input type="text" class="form-control h-150" placeholder="First name" aria-label="First name">
+          <form id="form">
+            <div class="col p-2">
+              <input type="text" class="form-control" placeholder="First name" aria-label="First name">
             </div>
-            <div class="col">
+            <div class="col p-2">
               <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
             </div>
           </div>
@@ -34,14 +35,18 @@
             <label for="exampleFormControlInput1" class="form-label">Email address</label>
             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
           </div>
-          <div class="mb-3 w-50 h-5">
-            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+          <div class="mb-3 w-50">
+            <label for="exampleFormControlTextarea1" class="form-label">Message:</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
           </div>
 
             <div class="mb-3">
-                <button class="btn btn-success p-3" type="submit" disabled>Submit form</button>
+                <input class="btn btn-success p-3" type="submit"></input>
             </div>
+          </form>
+           
+            <h3></h3>
+            <script src="contact.js"></script>
     </body>
     </div>
     
