@@ -7,3 +7,7 @@ body{
     background-color: #E7926B;
     
 }
+.col-md-4 li{
+    list-style-type: none;
+    font-size: 24px;
+}
