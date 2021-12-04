@@ -2,7 +2,8 @@ body{
     background-image: url(../images/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
-.navbar{
+/* .navbar{
     background-color: #E7926B;
-}
+} */
