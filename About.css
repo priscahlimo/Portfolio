@@ -1,15 +1,12 @@
 
-.content{
+body{
     background-image: url(../images/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 74vh;
+
 }
 .navbar{
     background-color: #E7926B;
     
-}
-/* .navbar-brand image{ */
-    border-radius: 30px 30px 30px 60px;
 }
