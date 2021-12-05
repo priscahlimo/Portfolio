@@ -3,6 +3,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    height:100vh;
 }
 .navbar{
     background-color: #E7926B;
