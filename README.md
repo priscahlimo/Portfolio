@@ -8,8 +8,7 @@ This my portfolio website that captures the about me section, description of my 
 * You need to have visual studio code installed.
 * Clone the repository
 * Go Live.
-## Images
-![My portfolio](images/Screenshot from 2021-12-05 09-43-11.png)
+
 
 ## Known Bugs
 There are no known bugs.
